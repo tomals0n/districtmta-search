@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     }
     else
     {
-        $id = $_POST['name'];
+        $id = mysqli_real_escape_string($polaczenie, $_POST['name']);
         $sql = "SELECT * FROM dt_pojazdy WHERE id='$id'";
 
         if($rezultat = @$polaczenie->query($sql))
