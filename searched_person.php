@@ -1,6 +1,6 @@
 <?php
 
-@include '../../conf/connect.php';
+@include '../../conf/connect.php'; // safe db connection
 
 session_start();
 
