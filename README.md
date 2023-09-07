@@ -30,6 +30,15 @@ $_SESSION['name_of_session'] = $wiersz['name_of_column']
 ```
 Change names of sessions and columns.
 
+```php
+@include '../../conf/connect.php';
+```
+You can change it too. Proper:
+
+```php
+@include 'connect.php';
+```
+
 ### Search person:
 <img src='https://i.imgur.com/DIzYFP3.png'/>
 
